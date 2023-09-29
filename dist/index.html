@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>validation</title>
+</head>
+<body>
+    <div id="validation-box">
+        <span id="title">FORM</span>
+        <form action="" method="post">
+            <div class="email small-box">
+                <label for="email-input">Email</label>
+                <input id="email-input" type="email" name="email" placeholder="abc@abc.abc">
+            </div>
+            <div class="country small-box">
+                <label for="country-input">Country</label>
+                <select name="country" id="country-input">
+                    <option value="VN">Viet Nam</option>
+                    <option value="US">America</option>
+                    <option value="JAP">Japan</option>
+                    <option value="CN">china</option>
+                </select>
+            </div>
+            <div class="zipcode small-box">
+                <label for="zipcode-input">Zipcode</label>
+                <input id="zipcode-input" type="number" name="zipcode" placeholder="123456">
+            </div>
+            <div class="password small-box">
+                <label for="password-input">Password</label>
+                <input id="password-input" type="password" name="password" placeholder="">
+            </div>
+            <div class="rePassword small-box">
+                <label for="rePassword-input">Password confirm</label>
+                <input id="rePassword-input" type="password" name="password confirm" placeholder="">
+            </div>
+            <button>SEND</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

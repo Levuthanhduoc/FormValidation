@@ -1,0 +1,35 @@
+html{
+    --small-box-width: 200px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+        appearance: textfield;
+}
+#title{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: white;
+}
+#validation-box{
+    position: relative;
+    width: 500px;
+    padding: 20px;
+    border: black 1px solid;
+}
+
+.small-box{
+    display: flex;
+    width:  var(--small-box-width);
+    margin-bottom: 10px;
+    flex-direction: column;
+}
