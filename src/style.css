@@ -18,8 +18,13 @@ input[type=number] {
     position: absolute;
     top: -10px;
     left: 10px;
-    background-color: white;
+    background-color: #ffffff;
 }
+
+#send-button{
+    width: 100px;
+}
+
 #validation-box{
     position: relative;
     width: 500px;
@@ -32,4 +37,8 @@ input[type=number] {
     width:  var(--small-box-width);
     margin-bottom: 10px;
     flex-direction: column;
+}
+
+.errorMessage{
+    color: red;
 }
